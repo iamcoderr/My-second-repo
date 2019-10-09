@@ -14,9 +14,10 @@ void dfs(int **graph,int v,int start,int *visited){
 }
 int main(){
 	int v,e,i,a,b,d;
+	i=0;e=0;
 	cout<<"Number of vertices & edges :";
 	cin>>v>>e;
-h	cout<<"Is graph directed or not (1/0) :";
+	cout<<"Is graph directed or not (1/0) :";
 	cin>>d;
 	int **graph = new int*[v];
 	int *visited= new int[v];
